@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1g1jjQEP3+HxRoviMhLDgISGVfZMFloLuOXrJvAe/ZrT4qIzlMyknHRnxVt3apsPtGcy/LQ7RG2W39HoiOvvpw==",
+  "success": true,
+  "projectFilePath": "/home/tyler/BiezerSharp/src/BiezerSharp/BiezerSharp.csproj",
+  "expectedPackageFiles": [
+    "/home/tyler/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
+    "/home/tyler/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
+    "/home/tyler/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
