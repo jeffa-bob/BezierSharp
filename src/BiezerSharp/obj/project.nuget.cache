@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+TfPeEDTAhlLCJBHGN4nWYvHx5M7/jj1yUucIRc+gEDAruMoD5dA97ss3UxEBSit5hLqA12X3SrfUNWFbmA2bQ==",
+  "dgSpecHash": "ieB1V3xIi0u3l1nD/sVz5Q1U50RVcDg5kNtwtfPc6BPkOu08I3cYGJ0BNCDBREg9LZcMcwbGqLAvqMiHKOdq/Q==",
   "success": true,
   "projectFilePath": "/home/tyler/BiezerSharp/src/BiezerSharp/BiezerSharp.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/home/tyler/.nuget/packages/opentk.windowing.desktop/4.0.1/opentk.windowing.desktop.4.0.1.nupkg.sha512",
     "/home/tyler/.nuget/packages/opentk.windowing.graphicslibraryframework/4.0.1/opentk.windowing.graphicslibraryframework.4.0.1.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
+    "/home/tyler/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

@@ -43,6 +43,10 @@
             "SkiaSharp": {
               "target": "Package",
               "version": "[2.80.2, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[2.80.2, )"
             }
           },
           "imports": [
