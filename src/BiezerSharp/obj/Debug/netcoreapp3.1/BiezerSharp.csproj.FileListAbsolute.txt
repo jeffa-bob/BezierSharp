@@ -19,7 +19,6 @@
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/glfw3.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/glfw3.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/osx/native/libSkiaSharp.dylib
-/home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/libSkiaSharp.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/libSkiaSharp.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/obj/Debug/netcoreapp3.1/BiezerSharp.csprojAssemblyReference.cache
@@ -30,7 +29,9 @@
 /home/tyler/BiezerSharp/src/BiezerSharp/obj/Debug/netcoreapp3.1/BiezerSharp.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/obj/Debug/netcoreapp3.1/BiezerSharp.pdb
 /home/tyler/BiezerSharp/src/BiezerSharp/obj/Debug/netcoreapp3.1/BiezerSharp.genruntimeconfig.cache
+/home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libSkiaSharp.so
+/home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libSkiaSharp.so
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libSkiaSharp.so
 /home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libSkiaSharp.so
-/home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libSkiaSharp.so
+/home/tyler/BiezerSharp/src/BiezerSharp/bin/Debug/netcoreapp3.1/SkiaSharp.Views.Desktop.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ieB1V3xIi0u3l1nD/sVz5Q1U50RVcDg5kNtwtfPc6BPkOu08I3cYGJ0BNCDBREg9LZcMcwbGqLAvqMiHKOdq/Q==",
+  "dgSpecHash": "lY7ukaSEwPFPpmhUvPVrlWhu5OShnWJUxi2kUCEl1U2FIzXIF/I0DZTGiKMZaJehL8RJ5OL5Ez/XRDB7t8g/rA==",
   "success": true,
   "projectFilePath": "/home/tyler/BiezerSharp/src/BiezerSharp/BiezerSharp.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,19 @@
     "/home/tyler/.nuget/packages/opentk.windowing.graphicslibraryframework/4.0.1/opentk.windowing.graphicslibraryframework.4.0.1.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
+    "/home/tyler/.nuget/packages/skiasharp.views/2.80.2/skiasharp.views.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SkiaSharp.Views 2.80.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SkiaSharp.Views",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

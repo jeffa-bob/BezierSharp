@@ -10,7 +10,8 @@
         "dependencies": {
           "OpenTK": "4.0.1",
           "SkiaSharp": "2.80.2",
-          "SkiaSharp.NativeAssets.Linux": "2.80.2"
+          "SkiaSharp.NativeAssets.Linux": "2.80.2",
+          "SkiaSharp.Views": "2.80.2"
         },
         "runtime": {
           "BiezerSharp.dll": {}
@@ -207,6 +208,17 @@
           }
         }
       },
+      "SkiaSharp.Views/2.80.2": {
+        "dependencies": {
+          "SkiaSharp": "2.80.2"
+        },
+        "runtime": {
+          "lib/net462/SkiaSharp.Views.Desktop.dll": {
+            "assemblyVersion": "2.80.0.0",
+            "fileVersion": "2.80.2.0"
+          }
+        }
+      },
       "System.Memory/4.5.3": {}
     }
   },
@@ -306,6 +318,13 @@
       "sha512": "sha512-uQSxFy5iVTK6tENWrlc+HCKGSCLgJ+d2KGXUlC1OMCXlKOVkzMqdwa0gMukrEA6HYdO+qk6IUq3ya4fk70EB4g==",
       "path": "skiasharp.nativeassets.linux/2.80.2",
       "hashPath": "skiasharp.nativeassets.linux.2.80.2.nupkg.sha512"
+    },
+    "SkiaSharp.Views/2.80.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qOvmMOZ2lkT6BTbmSNjsA46ugUeo6X6Vonok5RE3rYWpCEFxB1FvBqbKoaLY5XpdLWzyS3qinAuT2JLSyoPRvg==",
+      "path": "skiasharp.views/2.80.2",
+      "hashPath": "skiasharp.views.2.80.2.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",
