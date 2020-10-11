@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "1g1jjQEP3+HxRoviMhLDgISGVfZMFloLuOXrJvAe/ZrT4qIzlMyknHRnxVt3apsPtGcy/LQ7RG2W39HoiOvvpw==",
+  "dgSpecHash": "+TfPeEDTAhlLCJBHGN4nWYvHx5M7/jj1yUucIRc+gEDAruMoD5dA97ss3UxEBSit5hLqA12X3SrfUNWFbmA2bQ==",
   "success": true,
   "projectFilePath": "/home/tyler/BiezerSharp/src/BiezerSharp/BiezerSharp.csproj",
   "expectedPackageFiles": [
+    "/home/tyler/.nuget/packages/opentk/4.0.1/opentk.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.compute/4.0.1/opentk.compute.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.core/4.0.1/opentk.core.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.graphics/4.0.1/opentk.graphics.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.input/4.0.1/opentk.input.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.mathematics/4.0.1/opentk.mathematics.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.openal/4.0.1/opentk.openal.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.redist.glfw/3.3.0-pre20200830200122/opentk.redist.glfw.3.3.0-pre20200830200122.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.windowing.common/4.0.1/opentk.windowing.common.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.windowing.desktop/4.0.1/opentk.windowing.desktop.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk.windowing.graphicslibraryframework/4.0.1/opentk.windowing.graphicslibraryframework.4.0.1.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
-    "/home/tyler/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

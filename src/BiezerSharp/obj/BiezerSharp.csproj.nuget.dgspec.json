@@ -36,7 +36,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "SkiaSharp.NativeAssets.Linux": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "SkiaSharp": {
               "target": "Package",
               "version": "[2.80.2, )"
             }
