@@ -23,7 +23,7 @@ namespace BezierSharp
         GraphicsMode.Default,
         "window",  // initial title
         GameWindowFlags.Default,
-        DisplayDevice.Default,
+        DisplayDevice.GetDisplay(0),
         1, // OpenGL major version
         0, // OpenGL minor version
         GraphicsContextFlags.ForwardCompatible) {

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "a23K4miIQ9E47O02v39uVZgjz5eeUlFXVLA9TfLYxscU2wnupaMDn6IvDIsuXRU8HOGDgcSNonGbe//yuMXqgw==",
+  "dgSpecHash": "bhGheD3t8jaaDE1hC9/zFbR1C0wvpzfAkZ6e/rrVzpvOTYyPVvT4SUWHhK2mQmV3TelFzbrR6H8r0mAoDuuW1w==",
   "success": true,
-  "projectFilePath": "/home/tyler/BiezerSharp/src/BiezerSharp/BiezerSharp.csproj",
+  "projectFilePath": "E:\\Reposs\\BiezerSharp\\src\\BiezerSharp\\BiezerSharp.csproj",
   "expectedPackageFiles": [
-    "/home/tyler/.nuget/packages/opentk/3.2.0/opentk.3.2.0.nupkg.sha512",
-    "/home/tyler/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
-    "/home/tyler/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
-    "/home/tyler/.nuget/packages/skiasharp.views/2.80.2/skiasharp.views.2.80.2.nupkg.sha512",
-    "/home/tyler/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\brody\\.nuget\\packages\\opentk\\3.2.0\\opentk.3.2.0.nupkg.sha512",
+    "C:\\Users\\brody\\.nuget\\packages\\skiasharp\\2.80.2\\skiasharp.2.80.2.nupkg.sha512",
+    "C:\\Users\\brody\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.80.2\\skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
+    "C:\\Users\\brody\\.nuget\\packages\\skiasharp.views\\2.80.2\\skiasharp.views.2.80.2.nupkg.sha512",
+    "C:\\Users\\brody\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": [
     {
