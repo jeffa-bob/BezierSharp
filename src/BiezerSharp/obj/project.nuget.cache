@@ -1,26 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "lY7ukaSEwPFPpmhUvPVrlWhu5OShnWJUxi2kUCEl1U2FIzXIF/I0DZTGiKMZaJehL8RJ5OL5Ez/XRDB7t8g/rA==",
+  "dgSpecHash": "a23K4miIQ9E47O02v39uVZgjz5eeUlFXVLA9TfLYxscU2wnupaMDn6IvDIsuXRU8HOGDgcSNonGbe//yuMXqgw==",
   "success": true,
   "projectFilePath": "/home/tyler/BiezerSharp/src/BiezerSharp/BiezerSharp.csproj",
   "expectedPackageFiles": [
-    "/home/tyler/.nuget/packages/opentk/4.0.1/opentk.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.compute/4.0.1/opentk.compute.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.core/4.0.1/opentk.core.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.graphics/4.0.1/opentk.graphics.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.input/4.0.1/opentk.input.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.mathematics/4.0.1/opentk.mathematics.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.openal/4.0.1/opentk.openal.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.redist.glfw/3.3.0-pre20200830200122/opentk.redist.glfw.3.3.0-pre20200830200122.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.windowing.common/4.0.1/opentk.windowing.common.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.windowing.desktop/4.0.1/opentk.windowing.desktop.4.0.1.nupkg.sha512",
-    "/home/tyler/.nuget/packages/opentk.windowing.graphicslibraryframework/4.0.1/opentk.windowing.graphicslibraryframework.4.0.1.nupkg.sha512",
+    "/home/tyler/.nuget/packages/opentk/3.2.0/opentk.3.2.0.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp.nativeassets.linux/2.80.2/skiasharp.nativeassets.linux.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/skiasharp.views/2.80.2/skiasharp.views.2.80.2.nupkg.sha512",
     "/home/tyler/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'OpenTK 3.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "OpenTK",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

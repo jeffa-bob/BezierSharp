@@ -3,7 +3,6 @@ using SkiaSharp;
 using SkiaSharp.Views;
 using OpenTK;
 using OpenTK.Graphics;
-using OpenTK.Windowing.Desktop;
 
 namespace BezierSharp
 {
@@ -11,10 +10,11 @@ namespace BezierSharp
     {
         static void Main(string[] args)
         {
-            var p = new NativeWindowSettings();
-            
-            NativeWindow window = new NativeWindow(NativeWindowSettings.Default);
-            window.Context.MakeCurrent();
+
+            MainWindow a = new MainWindow();
+            a.Run();
+            /*
+            NativeWindow window = new NativeWindow();
             // window.MakeCurrent();
 
             var glInterface = GRGlInterface.Create();
@@ -37,7 +37,7 @@ namespace BezierSharp
 
             canvas.Flush();
             context.Flush();
-
+*/
         }
     }
 }
