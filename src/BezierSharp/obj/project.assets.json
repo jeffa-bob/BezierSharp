@@ -45,6 +45,24 @@
           }
         }
       },
+      "SkiaSharp.NativeAssets.Linux/1.68.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.3"
+        },
+        "compile": {
+          "lib/netstandard/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -127,6 +145,24 @@
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
       ]
     },
+    "SkiaSharp.NativeAssets.Linux/1.68.3": {
+      "sha512": "oKyN0nTuq9wZVZPxocCF4ovKFPGnOQCsFE0ailmQ0spaYqAllxKCiyeksogJpGF7erOBZhfYewAYJahXtv1K4g==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.linux/1.68.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.NativeAssets.Linux.targets",
+        "buildTransitive/net45/SkiaSharp.NativeAssets.Linux.targets",
+        "lib/net45/_._",
+        "lib/netstandard/_._",
+        "runtimes/linux-x64/native/libSkiaSharp.so",
+        "skiasharp.nativeassets.linux.1.68.3.nupkg.sha512",
+        "skiasharp.nativeassets.linux.nuspec"
+      ]
+    },
     "System.Memory/4.5.3": {
       "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "type": "package",
@@ -152,35 +188,29 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "SkiaSharp >= 1.68.3",
+      "SkiaSharp.NativeAssets.Linux >= 1.68.3",
       "glfw-net >= 3.3.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brody\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/home/tyler/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Reposs\\BiezerSharp\\src\\BezierSharp\\BezierSharp2.csproj",
+      "projectUniqueName": "/home/tyler/BiezerSharp/src/BezierSharp/BezierSharp2.csproj",
       "projectName": "BezierSharp2",
-      "projectPath": "E:\\Reposs\\BiezerSharp\\src\\BezierSharp\\BezierSharp2.csproj",
-      "packagesPath": "C:\\Users\\brody\\.nuget\\packages\\",
-      "outputPath": "E:\\Reposs\\BiezerSharp\\src\\BezierSharp\\obj\\",
+      "projectPath": "/home/tyler/BiezerSharp/src/BezierSharp/BezierSharp2.csproj",
+      "packagesPath": "/home/tyler/.nuget/packages/",
+      "outputPath": "/home/tyler/BiezerSharp/src/BezierSharp/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\brody\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/tyler/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -198,6 +228,10 @@
       "netcoreapp3.1": {
         "dependencies": {
           "SkiaSharp": {
+            "target": "Package",
+            "version": "[1.68.3, )"
+          },
+          "SkiaSharp.NativeAssets.Linux": {
             "target": "Package",
             "version": "[1.68.3, )"
           },
@@ -221,7 +255,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }

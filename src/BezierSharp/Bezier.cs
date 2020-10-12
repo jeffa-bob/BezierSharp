@@ -1,21 +1,42 @@
+using System.Collections.Generic;
 using SkiaSharp;
 
-public class BezierCurve {
-  SKPoint start, end, touch1,touch2;
+public class BezierPiece
+{
+    public SKPoint intersect, touch;
 
-  public void Draw(ref SKCanvas canvas, SKPaint paint, SKPathFillType fillType){
-    using (SKPath path = new SKPath()){
-      path.MoveTo(start);
-      path.CubicTo(touch1,touch2,end);
-      path.FillType = fillType;
-      canvas.DrawPath(path,paint);
+    public BezierPiece(SKPoint intersect, SKPoint touch)
+    {
+        this.intersect = intersect;
+        this.touch = touch;
     }
-  }
-  public BezierCurve(SKPoint start, SKPoint end, SKPoint touch1, SKPoint touch2){
-    this.start = start;
-    this.end = end;
-    this.touch1 = touch1;
-    this.touch2 = touch2;
-  }  
-  public BezierCurve(){}
+    public BezierPiece() { }
+
+}
+public class BezierCurve : List<BezierPiece>
+{
+
+    public void Draw(ref SKCanvas canvas, SKPaint paint, SKPathFillType fillType)
+    {
+        for (int iter = 1; iter < base.Count; iter++)
+        {
+            using (SKPath path = new SKPath())
+            {
+                path.MoveTo(base[iter - 1].intersect);
+                path.CubicTo(base[iter - 1].touch, base[iter].touch, base[iter].intersect);
+                path.FillType = fillType;
+                canvas.DrawPath(path, paint);
+            }
+            canvas.DrawCircle(base[iter].touch.X, base[iter].touch.Y, 6, paint);
+            canvas.DrawCircle(base[iter].intersect.X, base[iter].intersect.Y, 6, paint);
+        }
+        canvas.DrawCircle(base[0].touch.X, base[0].touch.Y, 6, paint);
+        canvas.DrawCircle(base[0].intersect.X, base[0].intersect.Y, 6, paint);
+
+    }
+
+    public BezierCurve(List<BezierPiece> biezers) : base(biezers)
+    {
+    }
+    public BezierCurve() : base() { }
 }

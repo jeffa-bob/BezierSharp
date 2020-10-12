@@ -9,6 +9,7 @@
       "BezierSharp2/1.0.0": {
         "dependencies": {
           "SkiaSharp": "1.68.3",
+          "SkiaSharp.NativeAssets.Linux": "1.68.3",
           "glfw-net": "3.3.1"
         },
         "runtime": {
@@ -61,6 +62,18 @@
           }
         }
       },
+      "SkiaSharp.NativeAssets.Linux/1.68.3": {
+        "dependencies": {
+          "SkiaSharp": "1.68.3"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "System.Memory/4.5.3": {}
     }
   },
@@ -83,6 +96,13 @@
       "sha512": "sha512-78YvBVmR52PoLPf0aTZMWOZVrMxlXlgPOgU3vGk7W50wrYHi3lSd886ccYd7MkJmm+oInP8shf0vSy1321ERCQ==",
       "path": "skiasharp/1.68.3",
       "hashPath": "skiasharp.1.68.3.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/1.68.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKyN0nTuq9wZVZPxocCF4ovKFPGnOQCsFE0ailmQ0spaYqAllxKCiyeksogJpGF7erOBZhfYewAYJahXtv1K4g==",
+      "path": "skiasharp.nativeassets.linux/1.68.3",
+      "hashPath": "skiasharp.nativeassets.linux.1.68.3.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",
