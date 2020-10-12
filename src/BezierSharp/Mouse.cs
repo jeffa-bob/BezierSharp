@@ -16,7 +16,7 @@ namespace BezierSharp2
     {
       var absX = (MousePoint.X - point.X);
       var absY = (MousePoint.Y - point.Y);
-      Console.WriteLine(((absX*absX)+(absY*absY)).ToString()+" "+(radius*radius).ToString());
+      //Console.WriteLine(((absX*absX)+(absY*absY)).ToString()+" "+(radius*radius).ToString());
       return (absX*absX) + (absY*absY) <= radius * radius;
     }
     public static bool findpoint(SKPoint MousePoint,ref  BezierCurve curve)
@@ -60,7 +60,7 @@ namespace BezierSharp2
             else
               selected.intersect = new SKPoint((float)x, (float)y);
 
-          Console.WriteLine(x.ToString()+" "+y.ToString()+" "+ holdingpiece.ToString()+" "+LeftMouseIsHeld+" "+curve.Count);
+          //Console.WriteLine(x.ToString()+" "+y.ToString()+" "+ holdingpiece.ToString()+" "+LeftMouseIsHeld+" "+curve.Count);
           LeftMouseIsHeld = true;
           break;
 
